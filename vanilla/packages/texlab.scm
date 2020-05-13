@@ -1,8 +1,8 @@
-(define-modules (vanilla packages texlab)
-   #:use-module (guix packages)
-   #:use-module (guix download)
-   #:use-module (guix build-system copy)
-   #:use-module (guix licenses))
+(define-module (vanilla packages texlab)
+  #:use-module (guix packages)
+  #:use-module (guix download)
+  #:use-module (guix build-system copy)
+  #:use-module (guix licenses))
 
 (package
  (name "texlab")
